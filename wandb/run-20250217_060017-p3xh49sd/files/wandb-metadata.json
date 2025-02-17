@@ -1,0 +1,41 @@
+{
+  "os":  "Linux-6.8.0-51-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.16",
+  "startedAt":  "2025-02-17T11:00:17.239206Z",
+  "program":  "/home/athena/Projects/temp_1/temp_trainer/train.py",
+  "codePath":  "Projects/temp_1/temp_trainer/train.py",
+  "git":  {
+    "commit":  "488eb7c548f75f3f854a66236cf20acfc3328029"
+  },
+  "email":  "einsteingirish@gmail.com",
+  "root":  "/home/athena/Projects/temp_1/temp_trainer",
+  "host":  "elpislab-4090",
+  "executable":  "/home/athena/miniconda3/envs/slurm_training/bin/python3",
+  "codePathLocal":  "train.py",
+  "cpu_count":  20,
+  "cpu_count_logical":  28,
+  "gpu":  "NVIDIA GeForce RTX 4090",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "2014574526464",
+      "used":  "1318817370112"
+    }
+  },
+  "memory":  {
+    "total":  "33321877504"
+  },
+  "cpu":  {
+    "count":  20,
+    "countLogical":  28
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4090",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  16384,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

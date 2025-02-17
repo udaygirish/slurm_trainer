@@ -1,0 +1,34 @@
+## Write a script to train MNIST with PyTorch
+
+# Import necessary libraries
+
+
+# Also use SLURM to run the script
+
+# Now follow this for runing the training uasing SLURM
+
+🔹 Submission Script for GPU Use
+If your job requires GPUs, you'll need to include additional directives in your submission script.
+
+Example GPU submission script:
+
+
+#!/bin/bash
+#SBATCH -N 1                   # 
+#SBATCH -n 8                   # 
+#SBATCH --mem=8g               # 
+#SBATCH -J "Example GPU Job"   # 
+#SBATCH -p short               # 
+#SBATCH -t 12:00:00            # 
+#SBATCH --gres=gpu:2           # 
+#SBATCH -C "A100|V100"         # 
+
+module load python             # 
+module load cuda/12.2          # 
+
+python my_script_name.py       # 
+Available GPUs
+H200, A100-80G, H100, L40S, A100, V100, P100, A30
+
+
+
